@@ -1,0 +1,41 @@
+body {
+    background-color:#ffe5e5;
+    color: #0f141e;
+
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Georgia', 'serif';
+}
+
+pre { 
+    font-family: 'Georgia', 'serif';
+    padding:;
+}
+
+.Mom {
+    width: 500px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    padding-left: 0px;
+}
+
+.header {
+    max-width: 900px;
+    margin:auto;
+}
+
+.conteiner {
+    max-width: 750px;
+    margin:auto;
+}
+
+.block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+    .block,
+    .header {
+        display: block;
+    }
+}
